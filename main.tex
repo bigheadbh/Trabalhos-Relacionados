@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage[bottom=2cm,top=3cm,left=3cm,right=2cm]{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{table*}[htb]
+\begin{center} 
+  \begin{tabular}{p{2cm}p{4cm}p{4cm}p{4cm}}
+  \toprule
+  \textbf{Artigo} &
+  \textbf{Ideia Principal} &
+  \textbf{Vantagens} &
+  \textbf{Desvantagens}\\
+  \midrule
+  %%--- GPSR
+  GPSR &
+  Real City Traces &
+  CBR Traffic &
+  Greedy forwarding is often restricted to a city scenario, because the direct communication typically does not exist.\\
+  \bottomrule
+  \end{tabular}
+\end{center}
+\normalsize
+\caption{Comparação entre soluções.}
+\label{Table:RoutingProtocols}
+\end{table*}
+
+
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
